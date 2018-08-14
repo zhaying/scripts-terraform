@@ -1,5 +1,5 @@
 #!/bin/bash
-# Expected Output
+# Expected Url Format as of 8/14/2018
 # https://releases.hashicorp.com/terraform/0.11.7/terraform_0.11.7_linux_amd64.zip
 # Variables
 os="_$(uname -s | awk '{print tolower($0)}')"
