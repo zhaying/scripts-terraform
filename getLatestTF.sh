@@ -10,13 +10,13 @@ tf_ver=$(curl -s https://api.github.com/repos/hashicorp/terraform/tags | grep -v
 tf_filename=terraform_
 
 # Determine ARCH x86_64
-if [ $os_arch == 'x86_64' ]
+if [ $os_arch == "x86_64" ]
 then
   arch="_amd64"
   echo $arch
 fi
 
-if [ $os_arch == 'i386' ]
+if [ $os_arch == "i386" ]
 then
   arch="_386"
   echo $arch
